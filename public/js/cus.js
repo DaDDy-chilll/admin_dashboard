@@ -9,7 +9,7 @@ asideBtn.addEventListener('click',()=>{
 backDrop.addEventListener('click',()=>{
     aside.classList.remove('show');
     backDrop.classList.remove('offcanvas-backdrop');
-    backDrop.classList.adremoved('show');
+    backDrop.classList.remove('show');
 });
 
 //chart js
